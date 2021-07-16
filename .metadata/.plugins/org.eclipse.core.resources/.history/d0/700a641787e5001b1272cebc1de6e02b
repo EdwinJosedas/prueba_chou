@@ -1,0 +1,28 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Pagina {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\fabia\\OneDrive - ucentral.edu.co\\Documentos\\javavirtual\\eclipseNeon\\WORKSPACESELENIUM\\chromedriver_win32");
+		WebDriver driver = new ChromeDriver();
+		 
+		//Paso 2 - Abrir la pagina web
+		driver.get("http://newtours.demoaut.com/");
+		 
+		//Paso 3 - Rellenar user name
+		driver.findElement(By.name("userName")).sendKeys("yosua");
+		 
+		//Paso 4 - Rellenar Password
+		driver.findElement(By.name("userName")).sendKeys("yosua");
+		 
+		//Paso 5 - Hacer login
+		driver.findElement(By.name("login")).submit();
+		 
+		System.out.println("Test case finalizado");
+	}
+}
+	

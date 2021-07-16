@@ -1,0 +1,13 @@
+
+public class Pagina {
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+
+	WebDriver = driver;
+
+	driver=new ChromeDriver();
+	
+	}
+}
+	

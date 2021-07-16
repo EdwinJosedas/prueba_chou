@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PruebaTV" project="Prueba" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.NewExperience.PruebaTV" time="5.961">
+    <testcase name="testNewEXperience" classname="com.NewExperience.PruebaTV" time="5.961">
+      <error>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-F7SN6M6', ip: '192.168.39.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0128C0C3+3326147]
+	Ordinal0 [0x01170851+2164817]
+	Ordinal0 [0x00FF7298+619160]
+	Ordinal0 [0x00F71D92+73106]
+	Ordinal0 [0x00F6E119+57625]
+	Ordinal0 [0x00F6C38A+50058]
+	Ordinal0 [0x00F95F3E+220990]
+	Ordinal0 [0x00F95CAC+220332]
+	Ordinal0 [0x00F9189B+202907]
+	Ordinal0 [0x00F73DF4+81396]
+	Ordinal0 [0x00F74DEE+85486]
+	Ordinal0 [0x00F74D79+85369]
+	Ordinal0 [0x011885DC+2262492]
+	GetHandleVerifier [0x01412874+1487204]
+	GetHandleVerifier [0x014123CD+1486013]
+	GetHandleVerifier [0x0141A368+1518680]
+	GetHandleVerifier [0x01412F4E+1488958]
+	Ordinal0 [0x0117ED0D+2223373]
+	Ordinal0 [0x0118A12B+2269483]
+	Ordinal0 [0x0118A26F+2269807]
+	Ordinal0 [0x0119ECB8+2354360]
+	BaseThreadInitThunk [0x75A0FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77527A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77527A4E+238]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at com.NewExperience.PruebaTV.setUp(PruebaTV.java:30)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)&#13;
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)&#13;
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
